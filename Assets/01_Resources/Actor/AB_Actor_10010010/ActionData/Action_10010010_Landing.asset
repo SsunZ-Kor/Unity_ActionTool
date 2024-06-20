@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba46562353f1c024d8c9af31543581b0, type: 3}
+  m_Name: Action_10010010_Landing
+  m_EditorClassIdentifier: 
+  _length: 0.43333334
+  _loop: 0
+  _listAnimation:
+  - _startTime: 0
+    _endTime: 0
+    _duration: 0
+    layerType: 0
+    animStateName: Landing
+    speed: 1
+    fadeNormalizedTime: 0
+  _listIgnoreGravitie: []
+  _listMovePos_ToForward: []
+  _listMovePos_ToInput: []
+  _listMovePos_ToBrainTarget: []
+  _listMoveVel_ToForward: []
+  _listMoveVel_ToInput: []
+  _listMoveVel_ToBrainTarget: []
+  _listRotateAngle_Left: []
+  _listRotateAngle_Right: []
+  _listRotateDir_ToInput: []
+  _listRotateDir_ToBrainTarget: []
+  listTriggersOnArea:
+  - nextActionName: Action_10010010_Idle_Air
+    _startTime: 0
+    _endTime: 0.43333334
+    _duration: 0.43333334
+    areaType: 1
+  - nextActionName: Action_10010010_Slide
+    _startTime: 0
+    _endTime: 0.43333334
+    _duration: 0.43333334
+    areaType: 2
+  listTriggersOnInput:
+  - nextActionName: Action_10010010_Run
+    _startTime: 0.2
+    _endTime: 0.43333334
+    _duration: 0.23333333
+    JoysickType: -2
+    keyCode: 8
+    keyState: 0
+  listTriggersOnEndAction:
+  - nextActionName: Action_10010010_Idle
+    areaType: 1
+    JoysickType: -1
+    keyCode: 8

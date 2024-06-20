@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: AB_UI_Sprites_Frame
+  m_EditorClassIdentifier: 
+  m_GroupName: AB_UI_Sprites_Frame
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 574e096f98403af448229555c9ce4281
+  m_SerializeEntries:
+  - m_GUID: ded3fc3de88fcc14aa12ddd62d93e895
+    m_Address: UI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27bc9f712169cef48b76dbbe00c5f0f3
+    m_Address: UI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 01097bb983dc7574788ca52ac08154fb, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fe408dc3177192d439b2e4a65eb06e1d, type: 2}
+    - {fileID: 11400000, guid: 0a87ab829cb2c08419bafbabe2ccd3fa, type: 2}
